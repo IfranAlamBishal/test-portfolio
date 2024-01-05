@@ -24,7 +24,7 @@ nav{
     margin: 0 200px;
 }
 #nav-mary{
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -43,12 +43,90 @@ nav a{
 /* Header*/
 header{
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 #pp{
     width: 580px;
+}
+.banner-greet{
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+.banner-title{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+.banner-description{
+    color:  #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 580px;
+    margin-bottom: 30px;
+}
+/*main Section*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*About*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.section-description{
+    width: 820px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin: 30px 25px;
+}
+.info-title{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
 }
