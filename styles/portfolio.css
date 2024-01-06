@@ -15,6 +15,10 @@ body{
     line-height: normal;
     border: 0px;
     padding: 18px 36px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #f49d60;
 }
 .section-title{
     color: #181818;
@@ -58,9 +62,9 @@ nav a{
 /* Header*/
 header{
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 
 }
 .banner{
@@ -209,9 +213,7 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-.footer-items{
-    text-align: left;
-}
+
 .footer-des{
     color: #474747;
     font-size: 16px;
