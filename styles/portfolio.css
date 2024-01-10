@@ -1,3 +1,8 @@
+
+/* *{
+    max-width: 1600px;
+} */
+
 /*Font*/
 body{
     font-family: 'Open Sans', sans-serif;
@@ -235,4 +240,7 @@ footer{
     font-size: 16px;
     font-weight: 400;
     width: 461px;
+}
+.form input[type="text"], input[type="email"], textarea:focus{
+    outline: none;
 }
